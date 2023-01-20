@@ -1,0 +1,113 @@
+.login{
+    background-color: rgb(25, 20, 26);
+
+    width: 50%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px black;
+}
+.container-login{
+    width: 100%;
+    height: 100%;
+}
+.TOP-login{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(25, 250, 137);
+
+}
+.container-main{
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-error{
+    width: 250px;
+    height: 18px;
+
+    border-radius: 4px;
+    
+}
+#Error{
+    font-size: 13px;
+    color: rgb(255, 0, 0);
+    
+    margin-left: 10px;
+}
+.inputs-container{
+    width: 250px;
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputs{
+    width: 230px;
+    height: 40px;
+
+    background-color: rgb(53, 43, 55);
+    border: none;
+    border-radius: 5px;
+
+    padding-left: 10px;
+
+    color: white;
+}
+
+#button-login{
+    background-color: rgb(0, 255, 128);
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(17, 247, 132);
+
+    cursor: pointer;
+
+    font-weight: 600;
+    transition: all 1s ease;
+}
+
+#button-login:hover{
+    background-color: rgba(0,0,0,0);
+    color: rgb(0, 255, 128);
+    box-shadow: inset 0 0 0 3px rgb(0, 255, 128);
+}
+
+.BOTTOM-login{
+    display: flex;
+    justify-content: flex-end;
+
+    padding-right: 10px;
+}
+
+.create-account{
+    color: rgb(25, 250, 137);
+    font-size: 11px;
+
+    background-color: rgb(25, 20, 26);
+    border: none;
+
+    cursor: pointer;
+}
+.create-account:hover{
+    color: rgb(105, 248, 176);
+}

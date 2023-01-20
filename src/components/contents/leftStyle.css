@@ -1,0 +1,23 @@
+.container-left{
+    width: 50%;
+    height: 100%;
+
+    
+}
+.card-img{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.astronauta{
+    width: 220px;
+    transition: all 1s ease;
+}
+
+.astronauta:hover{
+    width: 240px;
+}
